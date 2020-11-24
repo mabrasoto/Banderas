@@ -191,9 +191,9 @@ if __name__ == '__main__':
     path = '/Users/mbrav/OneDrive/Desktop/parcial'
     image_name = 'flag5.png'
     flag = Bandera(path,image_name)
-    #quantity = flag.Colores()
-    #print(quantity)
-    #color_percent = flag.Porcentaje()
-    #print(color_percent)
+    quantity = flag.Colores()
+    print(quantity)
+    color_percent = flag.Porcentaje()
+    print(color_percent)
     orient = flag.Orientacion()
     print(orient)
